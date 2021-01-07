@@ -1,0 +1,109 @@
+@import 'vars';
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 71px;
+
+    // Style White
+    .white {
+        background: #FFF;
+        color: $greyColor;
+
+        .price {
+            color: $greyDark;
+        }
+
+        button.more {
+            background: $violetDarkBack;
+            color: white;
+            border: 1px solid #FFF;
+
+            &:hover, &:focus {
+                border-color: $violetDark;
+                color: $violetDark;
+            }
+        }
+    }
+
+    // Style Violet
+    .violet {
+        background: $violetDarkBack;
+        color: white;
+
+        button.more {
+            background: #FFF;
+            color: $violetDark;
+            border: 1px solid $violetDark;
+
+            &:hover, &:focus {
+                border-color: #FFF;
+                color:  #FFF;
+            }
+        }
+    }
+
+    .card {
+        width: 269px;
+        padding: 31px 29px;
+        border-radius: 10px;
+        text-align: center;
+
+        .title {
+            margin: 0;
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        .price {
+            font-size: 72px;
+            line-height: 71px;
+            margin-top: 24px;
+            margin-bottom: 32px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .dol {
+                font-size: 40px;
+                line-height: 49px;
+            }
+        }
+
+        .desc {
+            margin-bottom: 32px;
+
+            p {
+                margin: 0;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                font-size: 15px;
+                line-height: 28px;
+            }
+
+            p:nth-child(odd) {
+                border-top: 1px solid rgba($greyColor, 0.25);
+                border-bottom: 1px solid rgba($greyColor, 0.25);
+            }
+
+        }
+
+        button.more {
+            text-transform: uppercase;
+            width: 100%;
+            padding: 13px 0;
+            border-radius: 6px;
+            font-size: 13px;
+            line-height: 16px;
+            letter-spacing: 1.4px;
+
+            &:hover, &:focus {
+                background: transparent;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
