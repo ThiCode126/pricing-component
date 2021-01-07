@@ -42,8 +42,8 @@ function App() {
     </div>
 
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="ThiCode126">ThiCode</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ThiCode126" target="_blank" rel="noreferrer">ThiCode</a>.
     </div>
   </>
   );
