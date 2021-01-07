@@ -14,6 +14,7 @@ function App() {
   }
 
   return (
+    <>
     <div className="my-app">
       <img className="bg-top" src="./assets/bg-top.svg" />
       <header>
@@ -36,7 +37,15 @@ function App() {
           })
         }
       </div>
+
+      <img className="bg-bottom" src="./assets/bg-bottom.svg" />
     </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="ThiCode126">ThiCode</a>.
+    </div>
+  </>
   );
 }
 

@@ -19,6 +19,20 @@ body {
             right: -185px;
             top: -30px;
         }
+
+        img.bg-bottom {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    .attribution {
+        font-style: italic;
+        font-size: 11px;
+        margin: 24px auto;
+        width: max-content;
     }
 }
 
