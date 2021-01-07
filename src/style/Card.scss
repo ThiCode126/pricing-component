@@ -25,6 +25,13 @@
                 color: $violetDark;
             }
         }
+
+        .desc {
+            p:nth-child(odd) {
+                border-top: 1px solid rgba($greyColor, 0.25);
+                border-bottom: 1px solid rgba($greyColor, 0.25);
+            }
+        }
     }
 
     // Style Violet
@@ -40,6 +47,13 @@
             &:hover, &:focus {
                 border-color: #FFF;
                 color:  #FFF;
+            }
+        }
+
+        .desc {
+            p:nth-child(odd) {
+                border-top: 1px solid rgba(#FFF, 0.25);
+                border-bottom: 1px solid rgba(#FFF, 0.25);
             }
         }
     }
@@ -83,11 +97,6 @@
                 line-height: 28px;
             }
 
-            p:nth-child(odd) {
-                border-top: 1px solid rgba($greyColor, 0.25);
-                border-bottom: 1px solid rgba($greyColor, 0.25);
-            }
-
         }
 
         button.more {
@@ -105,5 +114,26 @@
             }
         }
 
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+        align-items: center;
+        margin-bottom: 103px;
+
+        .card {
+            width: 288px;
+        }
+
+        .white {
+            padding: 31px;
+        }
+
+        .violet {
+            padding: 55px 31px;
+        }
     }
 }

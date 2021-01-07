@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="my-app">
+      <img className="bg-top" src="./assets/bg-top.svg" />
       <header>
         <h1 className="title">Our Pricing</h1>
         <div className="toggle-price">

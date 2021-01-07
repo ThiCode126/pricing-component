@@ -1,6 +1,7 @@
 @import 'vars';
 
 header {
+    margin-top: 64px;
     margin-bottom: 80px;
     h1.title {
         color: $greyColor;
@@ -54,5 +55,11 @@ header {
         }
 
 
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        margin-top: 71px;
     }
 }
