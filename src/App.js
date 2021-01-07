@@ -16,7 +16,7 @@ function App() {
   return (
     <>
     <div className="my-app">
-      <img className="bg-top" src="./assets/bg-top.svg" />
+      <img className="bg-top" src="./assets/bg-top.svg" alt="background-top" />
       <header>
         <h1 className="title">Our Pricing</h1>
         <div className="toggle-price">
@@ -38,7 +38,7 @@ function App() {
         }
       </div>
 
-      <img className="bg-bottom" src="./assets/bg-bottom.svg" />
+      <img className="bg-bottom" src="./assets/bg-bottom.svg" alt="background-top" />
     </div>
 
     <div class="attribution">
